@@ -17,12 +17,19 @@ function App() {
     <div className="min-h-screen p-4 md:p-8 flex justify-center">
       <main className="w-full max-w-md bg-white dark:bg-slate-900 rounded-2xl shadow-xl overflow-hidden border border-slate-200 dark:border-slate-800">
         <header className="p-6 border-b border-slate-100 dark:border-slate-800 bg-slate-50 dark:bg-slate-950">
-          <h1 className="text-2xl font-bold text-center text-slate-800 dark:text-slate-100 uppercase tracking-wide">
-            Price Compare
-          </h1>
-          <p className="text-center text-sm text-slate-500 dark:text-slate-400 mt-1">
-            Find the best value for your money
-          </p>
+          <div className="flex flex-col items-center justify-center">
+            <img
+              src="/logo.png"
+              alt="Calculator Logo"
+              className="w-16 h-16 mb-2"
+            />
+            <h1 className="text-2xl font-bold text-center text-slate-800 dark:text-slate-100 uppercase tracking-wide">
+              Price Compare
+            </h1>
+            <p className="text-center text-sm text-slate-500 dark:text-slate-400 mt-1">
+              Find the best value for your money
+            </p>
+          </div>
         </header>
 
         <div className="p-6 space-y-8">
